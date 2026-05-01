@@ -1,0 +1,10 @@
+{
+	"name": "finance_receive",
+	"version": "1.0.0",
+	"description": "收款核销云函数 - 记录客户收款并自动核销欠款",
+	"main": "index.js",
+	"dependencies": {},
+	"extensions": {
+		"uni-cloud-jql": {}
+	}
+}

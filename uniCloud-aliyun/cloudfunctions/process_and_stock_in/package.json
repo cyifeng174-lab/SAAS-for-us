@@ -1,0 +1,14 @@
+{
+	"name": "process_and_stock_in",
+	"version": "1.0.0",
+	"description": "加工入库与成本分摊云函数",
+	"main": "index.js",
+	"dependencies": {},
+	"extensions": {
+		"uni-cloud-jql": {}
+	},
+	"cloudfunction-config": {
+		"memorySize": 256,
+		"timeout": 10
+	}
+}

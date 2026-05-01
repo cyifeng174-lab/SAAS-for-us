@@ -1,0 +1,14 @@
+{
+	"name": "sales_order_create",
+	"version": "1.0.0",
+	"description": "销售开单与先进先出扣库存云函数",
+	"main": "index.js",
+	"dependencies": {},
+	"extensions": {
+		"uni-cloud-jql": {}
+	},
+	"cloudfunction-config": {
+		"memorySize": 512,
+		"timeout": 15
+	}
+}
