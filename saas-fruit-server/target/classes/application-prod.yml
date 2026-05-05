@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/saas_fruit?useSSL=false&serverTimezone=Asia/Shanghai&characterEncoding=UTF-8&allowPublicKeyRetrieval=true
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: saas_fruit
+    password: ${DB_PASSWORD}
+
+app:
+  mock-login: false
+  # 微信小程序配置
+  wechat-appid: "wx676d6edaaa5ecfc3"
+  wechat-secret: ${WECHAT_SECRET}
+  # JWT密钥
+  jwt-secret: ${JWT_SECRET}
+  jwt-expiration: 86400000

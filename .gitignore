@@ -2,3 +2,15 @@ node_modules/
 unpackage/
 .hbuilderx/
 .DS_Store
+
+# 编译输出目录
+target/
+dist/
+
+# IDE配置
+.idea/
+*.iml
+.vscode/
+
+# 日志文件
+*.log

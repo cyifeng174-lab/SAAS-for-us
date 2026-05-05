@@ -1,0 +1,60 @@
+{
+  "pages": [
+    "pages/login/index",
+    "pages/index/index",
+    "pages/sales/billing",
+    "pages/inventory/list",
+    "pages/my/index",
+    "pages/inventory/detail",
+    "pages/purchase/create",
+    "pages/processing/create",
+    "pages/customer/list",
+    "pages/finance/receive",
+    "pages/sales/history",
+    "pages/purchase/list",
+    "pages/processing/list",
+    "pages/finance/index",
+    "pages/customer/detail",
+    "pages/spec/list",
+    "pages/settings/export",
+    "pages/dashboard/index",
+    "pages/product/list",
+    "pages/supplier/list"
+  ],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "水果进销存",
+    "navigationBarBackgroundColor": "#4A90E2",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#4A90E2",
+    "borderStyle": "black",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/sales/billing",
+        "text": "开单"
+      },
+      {
+        "pagePath": "pages/inventory/list",
+        "text": "库存"
+      },
+      {
+        "pagePath": "pages/my/index",
+        "text": "我的"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "usingComponents": {}
+}
